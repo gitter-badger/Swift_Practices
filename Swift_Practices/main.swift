@@ -8,9 +8,9 @@
 
 import Foundation
 
-print("Here is a swift tour!")
+print("HELLO, HERE IS A SWIFT TOUR!")
 
-//------------------------ VARIABLE DEFINATION ---------------------------------------
+// ------------------------ SIMPLE VALUES DEFINATION ---------------------------------------
 
 // define a const
 let nameConst = "charles" // string must be double-quoted
@@ -63,7 +63,10 @@ let emptyArr = [String]()
 let emptyDictionary = [String: String]()
 print(emptyArr, emptyDictionary)
 
-//------------------------ CONTROL FLOW ---------------------------------------
-
-
-
+// ------------------------ CONTROL FLOW ---------------------------------------
+// ------------------------ Functions and Closures -----------------------------
+// ------------------------ Objects and Classes --------------------------------
+// ------------------------ Enumerations and Structures ------------------------
+// ------------------------ Protocols and Extensions ---------------------------
+// ------------------------ Error Handling -------------------------------------
+// ------------------------ Generics -------------------------------------------
