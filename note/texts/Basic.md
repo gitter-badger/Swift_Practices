@@ -7,6 +7,10 @@
 
     swift -v
 
+- start Read-eval-print Loop(repl)
+
+    swift
+
 ## RESOURCE
 
 - GuidedTour.playground
