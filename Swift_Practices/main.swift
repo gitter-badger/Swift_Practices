@@ -34,8 +34,14 @@ let appName = "AwesomeApp"
 
 let appVersion = 1.2
 
-//print(appName + appVersion) error
+// print(appName + appVersion) error
+
 print(appName + String(appVersion))
+
+// case string by '\()'
+print("AwesomeApp \(appVersion)")
+
+
 
 
 
