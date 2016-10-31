@@ -5,16 +5,16 @@
 
 - view swift version
 
-    swift -v
+        swift -v
 
 - start Read-eval-print Loop(repl)
 
-    swift
+        swift
 
 ## RESOURCE
 
 - GuidedTour.playground
 
-open -a xcode GuidedTour.playground/
+        open -a xcode GuidedTour.playground/
 
 
