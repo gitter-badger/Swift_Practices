@@ -70,5 +70,5 @@ occupations = [:]
 
 
 //: See [License](License) for this sample's licensing information.
-//: 
+//:
 //: [Next](@next)

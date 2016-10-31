@@ -50,7 +50,7 @@ class Square: NamedShape {
         numberOfSides = 4
     }
 
-    func area() ->  Double {
+    func area() -> Double {
         return sideLength * sideLength
     }
 

@@ -7,14 +7,20 @@
 
         swift -v
 
+
 - start Read-eval-print Loop(repl)
 
         swift
 
-## RESOURCE
+## SOME RESOURCE
 
 - GuidedTour.playground
 
         open -a xcode GuidedTour.playground/
 
+- [SwiftLint]https://github.com/realm/SwiftLint
+
+        SwiftLint help
+
+- [xcode-themes]https://github.com/hdoria/xcode-themes
 

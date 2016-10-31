@@ -49,6 +49,13 @@
 			);
 			sourceTree = "<group>";
 		};
+		2C0D41E30C9BB187F464E8A4 /* ss */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ss;
+			sourceTree = "<group>";
+		};
 		2C0D4466A465E7092CB0F8D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				2C0D45C0AAB171A07D0B1B4F /* main.swift */,
+				2C0D41E30C9BB187F464E8A4 /* ss */,
 			);
 			path = Swift_Practices;
 			sourceTree = "<group>";
@@ -91,6 +99,7 @@
 		2C0D403C518A7AC5F3682344 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 			};
 			buildConfigurationList = 2C0D49A41597B9850578B965 /* Build configuration list for PBXProject "Swift_Practices" */;
@@ -141,6 +150,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -205,6 +215,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -224,6 +235,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -246,6 +258,7 @@
 				2C0D4894AD17675DE29FC1DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
