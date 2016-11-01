@@ -234,7 +234,6 @@ public class Actor {
         return self
     }
 
-
     public func hurt(_ num: Int? = 5) -> Actor {
         self.blood -= (num ?? 10)
         // self.blood -= num // Error:value of optional type 'Int?' not unwrapped; did you mean to use '!' or '?'?
@@ -255,6 +254,22 @@ actor.hurt(nil).status()                        // blood cut 10 this time, wtf
 actor.name = "Charles"
 print(actor.fullName)
 
+class Hero : Actor {
+    override init(blood: Int, magic: Int) {
+        super.init(blood: blood, magic: magic)  // refer parent property must call this statement firstly
+        // parent defer had been call
+        defer {
+            self.blood -= 8
+            self.magic -= 8
+        }
+        self.blood += 30
+        self.magic += 30
+    }
+
+}
+
+var hero = Hero(blood: 100, magic: 100)
+hero.status()                                  // output 72 72
 
 
 // ------------------------ Enumerations and Structures ------------------------
