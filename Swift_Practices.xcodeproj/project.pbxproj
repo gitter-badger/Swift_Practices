@@ -49,13 +49,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		2C0D41E30C9BB187F464E8A4 /* ss */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ss;
-			sourceTree = "<group>";
-		};
 		2C0D4466A465E7092CB0F8D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				2C0D45C0AAB171A07D0B1B4F /* main.swift */,
-				2C0D41E30C9BB187F464E8A4 /* ss */,
 			);
 			path = Swift_Practices;
 			sourceTree = "<group>";

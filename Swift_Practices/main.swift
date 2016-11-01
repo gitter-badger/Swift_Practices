@@ -265,11 +265,12 @@ class Hero : Actor {
         self.blood += 30
         self.magic += 30
     }
-
 }
 
 var hero = Hero(blood: 100, magic: 100)
 hero.status()                                  // output 72 72
+
+// test the usage of willSet didSet
 
 
 // ------------------------ Enumerations and Structures ------------------------
